@@ -10,7 +10,7 @@ const Header = () => {
   </>
 
   return (
-    <div className="flex justify-around items-center mt-14">
+    <div className="flex justify-between items-center my-14">
       <div>
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@ const Header = () => {
         </ul>
       </div>
       <div>
-        <button className="py-4 px-6 bg-gradient-to-r from-[#7E90FE] to-[#9873FF]   rounded-lg text-white text-xl font-extrabold">Star Applying</button>
+        <button className="py-3 px-5 bg-gradient-to-r from-[#7E90FE] to-[#9873FF]   rounded-lg text-white text-lg font-extrabold">Star Applying</button>
       </div>
     </div>
   );
